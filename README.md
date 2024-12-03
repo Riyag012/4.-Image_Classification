@@ -1,8 +1,18 @@
 ## Facial Sentiment Analysis
-
 This project focuses on binary classification to identify facial expressions as either happy or sad. It employs a Convolutional Neural Network (CNN) built with 
 TensorFlow/Keras to achieve high accuracy in emotion detection. The system is designed for use in applications like human-computer interaction, sentiment tracking, and 
 emotion-driven analytics.
+
+
+## Content
+- [Dataset](#dataset)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Model Architecture](#model-architecture)
+- [Results](#results)
+- [Future Enhancements](#future-enhancements)
+- [Usage](#usage)
+
 
 ## Dataset
 
@@ -42,6 +52,7 @@ The CNN consists of:
 - **MaxPooling Layers**: Reduce spatial dimensions to prevent overfitting.
 - **Fully Connected Dense Layer**: Aggregate extracted features.
 - **Output Layer**: Single neuron with sigmoid activation for binary classification.
+
   
 
 | Layer Type     | Filters | Kernel Size | Activation | Output Shape       |
@@ -58,18 +69,18 @@ The CNN consists of:
 
 
 ## Results
-
 The CNN achieved:
-
 - Training Accuracy: 100%
 - Validation Accuracy: 81.49%
 - Visualizations of the model's training performance (accuracy and loss) can be explored using TensorBoard logs.
+
 
 ## Future Enhancements
 - Add real-time emotion detection using a webcam feed.
 - Expand the model to classify additional emotions (e.g., angry, surprised).
 - Improve accuracy with a larger and more diverse dataset.
 - Experiment with transfer learning using pre-trained models like VGG16 or ResNet.
+
 
 ## Usage
 - Train the model with your dataset by placing images into labeled folders (happy and sad) within a root directory.
