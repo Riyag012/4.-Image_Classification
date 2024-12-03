@@ -26,13 +26,11 @@ emotion-driven analytics.
 ## Technologies Used
 
 - Programming Language: Python 3.7+
-  
 - Libraries and Frameworks:
     - TensorFlow/Keras
     - NumPy
     - Matplotlib
     - OpenCV
-    
 - Tools:
     - Jupyter Notebook
     - TensorBoard for visualization
